@@ -4,7 +4,7 @@ Run the python script and supply the log as an argument. For example, if you put
 
 `py translator.py foundry_log.txt`
 
-The script expects a `preamble.txt` to be included in the same directory where it is run.
+The script expects a `preamble.txt` to be included in the same directory where it is run. In the last few lines, you can edit the image that usually accompanies the top of the log to something more suitable for your game.
 
 The script will look for a `mappings.json` file in the same directory. If it exists, it will map the names of speakers to specific images. For example, the following mappings.json file:
 

@@ -107,9 +107,10 @@ if __name__ == '__main__':
                                 </body>
 
                                 </html>''')
-                print("Names with no images specified:")
-                for name in unknownNames:
-                    print(name)
+                if len(unknownNames) > 0:
+                    print("Names with no images specified:")
+                    for name in unknownNames:
+                        print(name)
         except IOError:
             print("Error opening file: " + sys.argv[1])
             exit(1)

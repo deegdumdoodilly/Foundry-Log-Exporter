@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>NOMM Episode 1.5</title>
+    <title>Foundry Chat Log</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
@@ -686,7 +686,7 @@
 
 <div class="preamble">
     <div class="preamble__guild-icon-container">
-        <img class="preamble__guild-icon" src="https://media.discordapp.net/attachments/758820974773665802/977830778455097354/Retrograde-Minis-HA-TOKUGAWA_2.png" alt="Guild icon" loading="lazy">
+        <img class="preamble__guild-icon" src="https://foundryvtt.com/static/assets/icons/fvtt.png" alt="Guild icon" loading="lazy">
     </div>
     <div class="preamble__entries-container">
         <div class="preamble__entry">FOUNDRY Chat Log</div>
