@@ -45,6 +45,7 @@ if __name__ == '__main__':
         imageMapping = json.load(mappingFile)
     except IOError:
         print("Warning, could not locate mappings.json file. Will continue with default images")
+        imageMapping = {}
 
     colorSequence = ["deep-orange", "blue", "light-green", "purple", "teal", "pink", "yellow","indigo","brown","amber","red","cyan","orange","deep-purple","light-blue","green","lime","grey","blue-grey"]
     colorIndex = 0
