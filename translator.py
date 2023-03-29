@@ -41,7 +41,7 @@ def getPNG(address):
 
 if __name__ == '__main__':
     try:
-        mappingFile = open('mappings.json')
+        mappingFile = open('mappings.json', "r", encoding='UTF-8')
         imageMapping = json.load(mappingFile)
     except IOError:
         print("Warning, could not locate mappings.json file. Will continue with default images")
